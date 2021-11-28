@@ -1,6 +1,6 @@
 /* body stylings */
 body {
-    background-image: url(../img/.jpg);
+    background-image: url(../images/imageBC.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -18,7 +18,7 @@ body {
   }
   
   ::placeholder {
-    color: #3c3f41;
+    color: #396d91;
   }
   
   button {
@@ -27,7 +27,7 @@ body {
   }
   
   .card {
-    background-color: rgba(184, 163, 112, 0.884);
+    background-color: rgba(150, 167, 142, 0.884);
   }
    /* nav bar styling */
    .navigation-bar {
