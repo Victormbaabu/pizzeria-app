@@ -12,7 +12,7 @@
 
 {This application does not depend on any other code.}
 ## live link
-https://victormbaabu.github.io/delistudio/
+ https://victormbaabu.github.io/pizzeria-app/
 
 ## Known Bugs
 {The application has no known bugs. However it is still being improved }
