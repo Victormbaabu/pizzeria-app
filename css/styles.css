@@ -29,3 +29,106 @@ body {
   .card {
     background-color: rgba(184, 163, 112, 0.884);
   }
+   /* nav bar styling */
+   .navigation-bar {
+    background-color: rgba(184, 163, 112, 0.884);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .navigation-bar_element_link {
+    display: block;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 16px;
+    font-weight: bolder;
+  }
+  
+  /* header section styling */
+  .webpage-header {
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 2.5rem;
+    padding-bottom: 1rem;
+    color: whitesmoke;
+    font-family: "Kaushan Script", cursive;
+  }
+  
+  /* form section styling */
+  .form-section {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  .col-md-3 {
+    padding-bottom: 1rem;
+  }
+  
+  .message-for-user_element_total {
+    text-align: center;
+    font-weight: bold;
+  }
+  /* image section styling */
+  .images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+  }
+  
+  .pic {
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 1rem;
+  }
+  
+  .col-md-4 p {
+    text-align: center;
+  }
+  
+  /* webpage caption section styling */
+  .page-caption {
+    margin-bottom: 1rem;
+  }
+  
+  .page-caption_element_caption {
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: underline;
+    text-decoration-color: black;
+  }
+  /* footer section styling */
+  .footer-section {
+    background-color: rgba(184, 163, 112, 0.884);
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer-section_element_rights {
+    display: block;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 1rem;
+  }
+  
+  /* about-us section styling */
+  .about-us-section {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  
+  .about-us-section_element_text {
+    text-align: center;
+    line-height: 2.25rem;
+  }
