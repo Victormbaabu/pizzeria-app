@@ -31,3 +31,17 @@ $(document).ready(function() {
         var pizzaQuantity = document.getElementById("pizza-quantity").value;
         return parseInt(pizzaQuantity);
       };
+       //initializing a new order
+       var inputForUserOrder = new UserOrder(
+        pizzaSizePrice,
+        pizzaCrustPrice,
+        pizzaToppingsPrice,
+        pizzaQuantityPrice
+      );
+  
+      //a variable to get the total price of the user's order
+      var totalPrice =
+        (inputForUserOrder.size() +
+          inputForUserOrder.crust() +
+          inputForUserOrder.toppings()) *
+        inputForUserOrder.quantity();
