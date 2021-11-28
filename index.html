@@ -33,12 +33,67 @@
             <div class="card">
               <!-- header section -->
               <div class="webpage-header">
-                <h1 class="webpage-header_element_title">L’ora della Pizza</h1>
+                <h1 class="webpage-header_element_title">Pizzeria</h1>
               </div>
               <!-- form for the user to fill -->
               <form id="get-pizza-order">
                 <div class="form-section">
                   <div class="row">
+                       <!-- size selection section-->
+                <div class="col-md-3 form-group">
+                    <label for="pizza-size">Pizza Size</label>
+                    <select name="pizza-size" class="form-control" id="pizza-size">
+                      <option value="0">Choose size</option>
+                      <option value="500">Small - ksh500</option>
+                      <option value="1000">Medium - ksh1000</option>
+                      <option value="1500">Large - ksh1500</option>
+                    </select>
+                  </div>
+                  <!-- crust selection section-->
+                  <div class="col-md-3 form-group">
+                    <label for="crust-type">Crust type</label>
+                    <select name="crust-type" class="form-control" id="crust-type">
+                      <option value="0">Choose crust</option>
+                      <option value="600">Crispy - ksh600</option>
+                      <option value="500">Gluten free - ksh500</option>
+                      <option value="650">Thin Crust - ksh650</option>
+                      <option value="700">Fluffy Crust - ksh700</option>
+                      <option value="800">Stuffed - ksh800</option>
+                    </select>
+                  </div>
+                  <!-- toppings selection section-->
+                  <div class="col-md-3 form-group">
+                    <label for="pizza-toppings">Pizza toppings</label>
+                    <select
+                      name="pizza-toppings"
+                      class="form-control"
+                      id="pizza-toppings"
+                    >
+                      <option value="0">Choose toppings</option>
+                      <option value="700">Pepperoni - ksh700</option>
+                      <option value="550">Mushrooms - ksh550</option>
+                      <option value="600">Onions & Bacon - ksh600</option>
+                      <option value="650">Extra cheese - ksh650</option>
+                      <option value="850">Black olives - ksh850</option>
+                      <option value="900">Chicken - ksh900</option>
+                      <option value="850">Pineapple - ksh850</option>
+                      <option value="900">Beef - ksh900</option>
+                      <option value="900">Ham - ksh900</option>
+                      <option value="350">Fresh basil - ksh350</option>
+                    </select>
+                  </div>
+                  <!-- quantity selection section-->
+                  <div class="col-md-3 form-group">
+                    <label for="pizza-quantity">Quantity</label>
+                    <input
+                      type="number"
+                      name="pizza-quantity"
+                      class="form-control"
+                      id="pizza-quantity"
+                      placeholder="Choose quantity"
+                    />
+                  </div>
+                </div>    
     
 </body>
 </html>
