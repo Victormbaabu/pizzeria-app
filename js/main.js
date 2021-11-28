@@ -52,7 +52,7 @@ $(document).ready(function() {
   
         //prompt for delivery
         var delivery = confirm(
-          "We can deliver your order to your location for an additional 100. Would you want that?"
+          "For an additional 100, we can deliver your order to your location.?"
         );
   
         //delivery control flow
