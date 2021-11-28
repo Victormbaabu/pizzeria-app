@@ -1,0 +1,31 @@
+/* body stylings */
+body {
+    background-image: url(../img/.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  ::placeholder {
+    color: #3c3f41;
+  }
+  
+  button {
+    margin-top: 1rem;
+    margin-left: 45%;
+  }
+  
+  .card {
+    background-color: rgba(184, 163, 112, 0.884);
+  }
