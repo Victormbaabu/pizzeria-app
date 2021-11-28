@@ -6,7 +6,7 @@
 ## Setup/Installation Requirements
 * Open github 
 * Navigate to the Projects name 
-* Navigate to the cloning section and clone the repository.(https://github.com/Victormbaabu/delistudio.git)
+* Navigate to the cloning section and clone the repository.(https://github.com/Victormbaabu/pizzeria-app.git)
 * Paste the URL in your machine's location folder through the terminal and open the project
 
 
