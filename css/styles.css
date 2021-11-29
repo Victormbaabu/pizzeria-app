@@ -1,6 +1,6 @@
 /* body stylings */
 body {
-    background-image: url(../images/imageBC.jpeg);
+    background-image: url(../images/image1.jpg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
@@ -28,7 +28,7 @@ body {
   
   .card {
     background-color: rgba(150, 167, 142, 0.884);
-    width: 80%;
+    width: 75%;
   }
    /* nav bar styling */
    .navigation-bar {
