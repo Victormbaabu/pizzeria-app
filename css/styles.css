@@ -60,10 +60,11 @@ body {
   
   /* form section styling */
   .form-section {
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    align-items: center;
   }
 
   .col-md-3 {
@@ -120,15 +121,4 @@ body {
     margin-top: 1rem;
   }
   
-  /* about-us section styling */
-  .about-us-section {
-    padding-right: 1rem;
-    padding-left: 1rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
-  }
-  
-  .about-us-section_element_text {
-    text-align: center;
-    line-height: 2.25rem;
-  }
+ 
