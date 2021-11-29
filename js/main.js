@@ -81,7 +81,7 @@ $(document).ready(function() {
   
           //final prompt
           alert(
-            "In case you missed it... Your total order is = ksh" +
+            " Your total order is = ksh" +
               totalPrice +
               " + ksh100 delivery fee."
           );
@@ -92,7 +92,7 @@ $(document).ready(function() {
   
           //final prompt
           alert(
-            "In case you missed it... Your total order is = ksh" + totalPrice
+            "Your total order is = ksh" + totalPrice
           );
         }
   
